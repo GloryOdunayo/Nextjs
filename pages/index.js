@@ -38,12 +38,4 @@ const Home = () => {
 };
 
 export default Home;
-Home.getLayout = function pageLayout(page){
-  return (
-    <>
-      {page}
-      {/* <Footer/> */}
-    </>
-  )
-}
 
