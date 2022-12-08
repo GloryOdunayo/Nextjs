@@ -1,20 +1,7 @@
 import Head from "next/head";
 import React from "react";
-import styled from "styled-components";
-// import Footer from "../components/Footer";
 
 const Home = () => {
-  const myStyle = {
-    backgroundColor: "grey",
-    color: "orange",
-    fontFamily: "sans-serif",
-    fontSize: "34px",
-    fontWeight: "bold",
-  };
-  const Section = styled.div`
-    background-color: white;
-    color: orange;
-  `;
   return (
     <>
       <Head>
